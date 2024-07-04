@@ -37,7 +37,8 @@ section {
     left: 0;
     width: 100%;
     padding: 2rem 9%;
-    background: var(--bg-color);
+    /* background: var(--bg-color); */
+    background: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -164,7 +165,8 @@ span {
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    background: var(--second-bg-color);
+    /* background: var(--second-bg-color); */
+    background: transparent;
 }
 
 .about-img img {
@@ -189,6 +191,12 @@ span {
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
 }
+
+body{
+    background: url(./img/fondo.png);
+    background-attachment: fixed;
+}
+
 
 
 .services h2 {
@@ -233,7 +241,8 @@ span {
 }
 
 .portfolio {
-    background: var(--second-bg-color);
+    /* background: var(--second-bg-color); */
+    background: transparent;
 }
 
 .portfolio h2 {
